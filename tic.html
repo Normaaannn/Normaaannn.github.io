@@ -213,7 +213,84 @@ calculos.<br><br>
 Una base de datos es un conjunto de datos estructurados que pertenecen a un mismo contexto y, en cuanto a su funcion, se utiliza para administrar de forma electronica grandes
     cantidades de informacion.</p><br><br>
     
+    <h1>Redes</h1>
 
+<p>Una red informatica es el conjunto de ordenadores y dispositivos electronicos conectados entre si cuya finalidad es compartir recursos, informacion y servicios, hay varios tipos
+de redes<br>
+
+-PAN (red de area personal), interconexion de dispositivos en el entorno del usuario, con alcance de escasos metros.<br>
+-WPAN, igual que PAN pero sin cables, BLuetooth utiliza radiofrecuencias cercanas a los 2.5GHz y permite un alcance de hasta 10m.<br>
+-LAN (red de are local), interconexion de varios dispositivos en el entorno de un edificio, con un alcante limitado por la longitud maxima de los cables o por la cobertura de las
+antenas inalambricas.<br>
+-MAN (red de area metropolitana), red formada por un conjunto de redes LAN que interconecta equipos en el entorno de un municipio, las nuevas redes municipales que utilizan
+la interconexion inalambrica de largo alcance con antenas parabolicas o mediante nuevos protocolos como Wimax y que tienen un alcance de 5 a 50km, son un ejemplo de este tipo
+de red.<br>
+-WAN (red de area amplia), interconecta equipos en un entorno muy amplio, como un pais o un contienente, se suele apoyar en infraestructuras ya creadas, como la red telefonica
+o el cable de fibra optica.<br><br>
+
+La distribucion o esquema que describe la red se denomina topologia de la red, existen distintas topologias de red<br>
+
+-Bus, tambien conocida como conexion lineal, utiliza un cable central con derivaciones a los nodos.<br>
+-Estrella, todos los ordenadores estan conectados a un concentrados o hub central, pero no se encuentran conectados entre si.<br>
+-Anillo, todos los nodos se conectan describiendo un anillo, de forma que un ordenador recibe un paquete de informacion con un codigo de destinatario, si no es el, manda el
+paquete al siguiente anillo y asi sucesivamente, si uno de los ordenadores falla, se pierde la red.<br>
+-Arbol, tambien conocida como topologia jerarquica, se trata de una combinacion de redes en estrella en la que cada switch se conecta a un servidor o a un switch principal.<br>
+-Malla, cada nodo esta conectado al resto de los equipos de la red con mas de un cable, por lo que se trata de una red muy segura ante un fallo pero de instalacion mas compleja.<br><br>
+
+Redes segun la transmision de datos<br>
+
+-Simplex, la transmision de datos solo se produce de forma unidireccional, solo esta presente en algunos dispositivos de redes PAN como auriculares Bluetooth.<br>
+-Half duplex, la transmision se produce de forma bidireccional pero no simultanea.<br>
+-Full duplex, transmision de datos simultanea entre los dispositivos de la red, en la actualidad todas las redes informaticas utilizan protocolos que permiten la comunicacion
+simultanea y bidireccional.<br><br>
+
+La direccion IP es una etiqueta numerica que identifica de manera logica y jerarquica, a una interfaz en la red de un dispositivo que utilice el Protocolo de Internet o que
+corresponde al nivel de red del modelo TCP/IP.<br><br>
+
+La direccion MAC es un identificador de 48 bits (6 bloques de dos caracteres hexadecimales [8bits]) que corresponde de forma unica a una tarjeta o dispositivo de red, se la
+conoce tambien como direccion fisica, y es unica para cada dispositivo. A pesar de que cada dispositivo de red tiene una direccion MAC unica globalmente que lo identifica
+y lo hace unico por ser especial y que ninguna otra sea igual, es la capa de sistema operativo la que gestiona y distribuye en la red, con lo que se puede modificar la 
+    direccion MAC que identifica la interfaz de red, esta practica es conocida como MAC spoofing.</p><br><br>
+
+    <h1>Seguridad informatica</h1>
+
+<p>Seguridad informatica es el conjunto de acciones, herramientas y dispositivos cuyo objetivo es dotar a un sistema informatico de integridad, confidencialidad y disponibilidad.<br><br>
+
+Virus informatico es un programa que se instala en el ordenador sin el conocimiento de su usuario y cuya finalidad es propagarse a otros equipos y ejecutar las acciones para
+las que fue diseñado, estas funciones van desde pequeñas bromas que no implican la destruccion de archivos, o la ralentizacion o apagado del sistema, hasta la destruccion total
+de discos duros.<br><br>
+
+Gusano informatico es un tipo de virus cuya finaliad es multiplicarse e infectar todos los nodos de una red de ordenadores, aunaque no suele implicar la destruccion de archivos,
+si ralentizan el funcionamiento de los ordenadores infectados y de toda su red, suelen acompañar a un correo electronico malicioso y muchos tienen la capacidad de enviarse
+automaticamente a todos los contactos del programa gestor de correo.<br><br>
+
+Troyano es una pequeña aplicacion escondida en otros programas de utilidades, fondos de pantalla, imagenes, etc, cuya finalidad no es destruir informacion, sino disponer de
+una puerta de entrada a nuestro ordenadores o incluso tome el control absoluto de nuestro equipo de forma remota.<br><br>
+
+Espia o spyware es un programa que se instala en el ordenador sin conocimiento del usuario y cuya finalidad es recopilar informacion sobre el usuario para enviarla a servidores
+de Internet que son gestionados por compañias de publicidad.<br><br>
+
+Dialer son programas que se instalan en el ordenador y utilizan el modem telefonico de conexion a Internet del usuario para realizar llamadas telefonicas de alto coste, lo que
+provoca grandes gastos al usuario y beneficios economicos al creador del dialer, si la conexion a Internet se realiza mediante un router ADSL, se evita este problema.<br><br>
+
+Spam, tambien conocido como correo basura, consiste en el envio de correo electronico publicitario de forma masiva a cualquier direccion de correo electronico existente.<br><br>
+
+Pharming consiste en la suplantacion de paginas web por parte de un servidor local que esta instalado en el equipo sin que el usuario lo sepa, la suplantacion suele utilizarse
+para obtener datos bancarios de los usuarios y cometes delitos economicos.<br><br>
+
+Phishing, practica delictiva que consiste en obetener informacion confidencial de los usuarios de banca electronica mediante el envio de correos electronicos que solicitan
+dicha informacion, esta estafa se disimula dando al correo el aspecto oficial de nuestro banco y utilizando la misma imagen corporativa.<br><br>
+
+Keylogger, mediante la utilizacion de software malicioso o incluso mediante dispositivos de harware, su funcion consiste en registrar todas las pulsacion que el usuario realiza
+en su teclado, para posteriormente almacenarlas en un archivo y enviarlo por Internet al creador del keylogger.<br><br>
+
+Rogue software o falso programa de seguridad, se trata de falsos programas antivirus o antiespias que hacen creer al usuario que su sistema se encuentra infectado por virus o
+programas espias para hacerle comprar un programa que elimine esta falsa infeccion.<br><br>
+
+Un programa antivirus es un programa cuya finalidad es detectar, impedir la ejeucion y eliminar software malicioso.<br><br>
+
+Un cortafuegos o firewall es un programa cuya finalidad es permitir o prohibir la comunicacion entre las aplicaciones de nuestro equipo y la red, asi como evitar ataques intrusos
+    desde otros equipos hacia el nuestro mediante el protocolo TCP/IP.</p><br><br>
 
     
     
